@@ -3,7 +3,8 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   content: [
-    "./src/index_mock.html"
+    "./src/index_mock.html",
+    "./src/pages/mtgDeckViz.html"
   ],
   theme: {
     container: {
@@ -25,7 +26,7 @@ module.exports = {
         inter: ["Inter", "sans-serif"]
       },
       backgroundImage: {
-
+        bodyBG : "url('./assets/noise-bg.png')"
       }
     },
   },
